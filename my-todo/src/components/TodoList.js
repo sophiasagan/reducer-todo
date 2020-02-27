@@ -17,7 +17,7 @@ const TodoList = props => {
 
             <button className='clear-btn' onClick={props.clearTodo}>
                 {' '}
-                Clear Completed
+                <i class="fas fa-trash-alt"></i> Clear Completed
             </button>
         </div>
     );

@@ -21,7 +21,7 @@ const TodoForm = props => {
             <form onSubmit={submitItem}>
                 <label htmlFor='item'> To Do: </label>
                 <input type='text' name='item' value={item} onChange={handleChanges} />
-                <button> Add </button>
+                <button> <i class="fas fa-plus"></i> Add</button>
             </form>
         </div>
     );

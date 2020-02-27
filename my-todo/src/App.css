@@ -123,10 +123,18 @@ button {
     border-radius: 8px;
 
   }
+/* 
+i.far {
+  color: green;
+  font-size: 16px;
+  
+
+  } */
   
   .clear-btn {
     margin-top: 16px;
     width: 80%;
+    
   }
   
   .TodoList {
